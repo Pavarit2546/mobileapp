@@ -1,11 +1,15 @@
 import { Link } from 'expo-router';
 import { openBrowserAsync } from 'expo-web-browser';
-import { type ComponentProps } from 'react';
+import React from 'react';
 import { Platform } from 'react-native';
 
-type Props = Omit<ComponentProps<typeof Link>, 'href'> & { href: string };
-
-export function ExternalLink({ href, ...rest }: Props) {
+/**
+ * ExternalLink component that handles both web and native platforms.
+ * 
+ * @param {object} props - The props for the component.
+ * @param {string} props.href - The URL to link to.
+ */
+export function ExternalLink({ href, ...rest }) {
   return (
     <Link
       target="_blank"

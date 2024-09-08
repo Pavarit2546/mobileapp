@@ -13,5 +13,5 @@
     "**/*.tsx",
     ".expo/types/**/*.ts",
     "expo-env.d.ts"
-  ]
+, "hooks/useThemeColor.js", "hooks/useColorScheme.web.js", "hooks/useColorScheme.js", "constants/Colors.js", "components/ThemedView.js", "components/ThemedText.js", "components/ParallaxScrollView.js", "components/HelloWave.js", "components/ExternalLink.js", "components/Collapsible.js", "components/navigation/TabBarIcon.js", "components/__tests__/ThemedText-test.่ห", "app/+not-found.js", "app/+html.js", "app/(tabs)/_layout.js", "app/(tabs)/explore.js", "app/(tabs)/index.js"  ]
 }
