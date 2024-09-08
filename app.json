@@ -31,6 +31,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "09989898-e8c4-4da3-b228-9cc92cefbbff"
+      }
+    },
+    "owner": "project_mobileapp"
   }
 }
